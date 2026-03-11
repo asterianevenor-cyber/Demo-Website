@@ -99,6 +99,7 @@ const T = {
   footer_privacy:     { 'en-us':'Privacy Policy','en-uk':'Privacy Policy','ja':'プライバシーポリシー','es':'Política de Privacidad','zh':'隐私政策' },
   footer_terms:       { 'en-us':'Terms & Conditions','en-uk':'Terms & Conditions','ja':'利用規約','es':'Términos y Condiciones','zh':'条款与条件' },
   footer_contact:     { 'en-us':'Contact Us','en-uk':'Contact Us','ja':'お問い合わせ','es':'Contáctanos','zh':'联系我们' },
+  footer_copyright:   { 'en-us':'All rights reserved. Made with ❤ for quality information.','en-uk':'All rights reserved. Made with ❤ for quality information.','ja':'全著作権所有。質の高い情報のために ❤ を込めて制作。','es':'Todos los derechos reservados. Hecho con ❤ para información de calidad.','zh':'版权所有。用 ❤ 为优质信息而制作。' },
   login_error:        { 'en-us':'Incorrect username or password.','en-uk':'Incorrect username or password.','ja':'ユーザー名またはパスワードが間違っています。','es':'Usuario o contraseña incorrectos.','zh':'用户名或密码错误。' },
   login_fields_required: { 'en-us':'Username and password are required.','en-uk':'Username and password are required.','ja':'ユーザー名とパスワードは必須です。','es':'El usuario y la contraseña son obligatorios.','zh':'用户名和密码为必填项。' },
   logout_success:     { 'en-us':'Successfully signed out.','en-uk':'Successfully signed out.','ja':'サインアウトしました。','es':'Sesión cerrada exitosamente.','zh':'成功退出。' },
