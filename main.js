@@ -99,7 +99,6 @@ const T = {
   footer_privacy:     { 'en-us':'Privacy Policy','en-uk':'Privacy Policy','ja':'プライバシーポリシー','es':'Política de Privacidad','zh':'隐私政策' },
   footer_terms:       { 'en-us':'Terms & Conditions','en-uk':'Terms & Conditions','ja':'利用規約','es':'Términos y Condiciones','zh':'条款与条件' },
   footer_contact:     { 'en-us':'Contact Us','en-uk':'Contact Us','ja':'お問い合わせ','es':'Contáctanos','zh':'联系我们' },
-  footer_copyright:   { 'en-us':'All rights reserved. Made with ❤ for quality information.','en-uk':'All rights reserved. Made with ❤ for quality information.','ja':'全著作権所有。質の高い情報のために ❤ を込めて制作。','es':'Todos los derechos reservados. Hecho con ❤ para información de calidad.','zh':'版权所有。用 ❤ 为优质信息而制作。' },
   login_error:        { 'en-us':'Incorrect username or password.','en-uk':'Incorrect username or password.','ja':'ユーザー名またはパスワードが間違っています。','es':'Usuario o contraseña incorrectos.','zh':'用户名或密码错误。' },
   login_fields_required: { 'en-us':'Username and password are required.','en-uk':'Username and password are required.','ja':'ユーザー名とパスワードは必須です。','es':'El usuario y la contraseña son obligatorios.','zh':'用户名和密码为必填项。' },
   logout_success:     { 'en-us':'Successfully signed out.','en-uk':'Successfully signed out.','ja':'サインアウトしました。','es':'Sesión cerrada exitosamente.','zh':'成功退出。' },
@@ -146,29 +145,29 @@ let newsData = [
   {
     id: 1,
     // Indonesian (default)
-    title: "Portal Berita Terpercaya Kini Hadir untuk Anda",
-    content: "NewsPortal hadir sebagai solusi informasi terkini yang dapat Anda andalkan setiap hari. Dengan tim editorial berpengalaman dan teknologi mutakhir, kami berkomitmen untuk memberikan berita yang akurat, berimbang, dan tepat waktu.\n\nMisi kami adalah mencerdaskan masyarakat melalui informasi berkualitas. Setiap artikel yang dipublikasikan telah melalui proses verifikasi ketat untuk memastikan kebenaran setiap fakta yang disajikan.",
+    title: "Cara Login sebagai Admin",
+    content: "username = admin dan password = admin",
     // Translations per language
     translations: {
       'en-us': {
-        title: "A Trusted News Portal Has Arrived for You",
-        content: "NewsPortal is here as a solution for the latest information you can rely on every day. With an experienced editorial team and cutting-edge technology, we are committed to delivering news that is accurate, balanced, and timely.\n\nOur mission is to educate society through quality information. Every article published has gone through a rigorous verification process to ensure the accuracy of every fact presented."
+        title: "How to Log In as Admin",
+        content: "username = admin and password = admin"
       },
       'en-uk': {
-        title: "A Trusted News Portal Has Arrived for You",
-        content: "NewsPortal is here as a solution for the latest information you can rely on every day. With an experienced editorial team and cutting-edge technology, we are committed to delivering news that is accurate, balanced, and timely.\n\nOur mission is to educate society through quality information. Every article published has gone through a rigorous verification process to ensure the accuracy of every fact presented."
+        title: "How to Log In as Admin",
+        content: "username = admin and password = admin"
       },
       'ja': {
-        title: "信頼できるニュースポータルが登場",
-        content: "NewsPortalは、毎日信頼できる最新情報のソリューションとして登場しました。経験豊富な編集チームと最先端の技術により、正確でバランスのとれた、タイムリーなニュースをお届けすることをお約束します。\n\n私たちのミッションは、質の高い情報を通じて社会を啓発することです。公開されるすべての記事は、提示されるすべての事実の正確性を確保するための厳格な検証プロセスを経ています。"
+        title: "管理者としてログインする方法",
+        content: "ユーザー名 = admin、パスワード = admin"
       },
       'es': {
-        title: "Un Portal de Noticias Confiable Ha Llegado para Ti",
-        content: "NewsPortal llega como una solución de información actualizada en la que puedes confiar cada día. Con un experimentado equipo editorial y tecnología de vanguardia, nos comprometemos a brindar noticias precisas, equilibradas y oportunas.\n\nNuestra misión es educar a la sociedad a través de información de calidad. Cada artículo publicado ha pasado por un riguroso proceso de verificación para garantizar la veracidad de cada hecho presentado."
+        title: "Cómo Iniciar Sesión como Administrador",
+        content: "usuario = admin y contraseña = admin"
       },
       'zh': {
-        title: "值得信赖的新闻门户已为您而来",
-        content: "NewsPortal 作为您每天可以信赖的最新信息解决方案而来。凭借经验丰富的编辑团队和尖端技术，我们致力于提供准确、均衡且及时的新闻。\n\n我们的使命是通过优质信息教育社会。每篇发布的文章都经过严格的核实程序，以确保所呈现的每个事实的准确性。"
+        title: "如何以管理员身份登录",
+        content: "用户名 = admin，密码 = admin"
       }
     },
     image_url: "https://picsum.photos/seed/news1/800/450",
@@ -180,28 +179,28 @@ let newsData = [
   },
   {
     id: 2,
-    title: "Teknologi AI Semakin Canggih: Dampak pada Dunia Kerja",
-    content: "Kecerdasan buatan atau Artificial Intelligence (AI) terus berkembang pesat dan mulai mengubah lanskap dunia kerja secara signifikan. Para ahli memperkirakan bahwa dalam 10 tahun ke depan, hampir setiap industri akan terdampak oleh otomasi berbasis AI.\n\nNamun, para ekonom juga mencatat bahwa AI tidak hanya menghilangkan pekerjaan, tetapi juga menciptakan peluang baru. Profesi seperti AI trainer, prompt engineer, dan data analyst semakin diminati di pasar kerja global.",
+    title: "Cara Login sebagai User",
+    content: "username = user dan password = user",
     translations: {
       'en-us': {
-        title: "AI Technology Grows Smarter: Its Impact on the Workforce",
-        content: "Artificial Intelligence (AI) continues to develop rapidly and is beginning to significantly reshape the global job market. Experts predict that within the next 10 years, almost every industry will be affected by AI-based automation.\n\nHowever, economists also note that AI is not only eliminating jobs but also creating new opportunities. Professions such as AI trainers, prompt engineers, and data analysts are increasingly sought after in the global job market."
+        title: "How to Log In as a User",
+        content: "username = user and password = user"
       },
       'en-uk': {
-        title: "AI Technology Grows Smarter: Its Impact on the Workforce",
-        content: "Artificial Intelligence (AI) continues to develop rapidly and is beginning to significantly reshape the global job market. Experts predict that within the next 10 years, almost every industry will be affected by AI-based automation.\n\nHowever, economists also note that AI is not only eliminating jobs but also creating new opportunities. Professions such as AI trainers, prompt engineers, and data analysts are increasingly sought after in the global job market."
+        title: "How to Log In as a User",
+        content: "username = user and password = user"
       },
       'ja': {
-        title: "AIテクノロジーの進化：労働市場への影響",
-        content: "人工知能（AI）は急速に発展し続け、グローバルな雇用市場を大幅に変革し始めています。専門家は、今後10年以内にほぼすべての産業がAIベースの自動化の影響を受けると予測しています。\n\nしかし、経済学者はAIが雇用を失わせるだけでなく、新たな機会も生み出していることにも注目しています。AIトレーナー、プロンプトエンジニア、データアナリストなどの職業は、グローバルな雇用市場でますます需要が高まっています。"
+        title: "ユーザーとしてログインする方法",
+        content: "ユーザー名 = user、パスワード = user"
       },
       'es': {
-        title: "La Tecnología IA Se Vuelve Más Inteligente: Impacto en el Mercado Laboral",
-        content: "La Inteligencia Artificial (IA) continúa desarrollándose rápidamente y está comenzando a remodelar significativamente el mercado laboral global. Los expertos predicen que en los próximos 10 años, casi todas las industrias se verán afectadas por la automatización basada en IA.\n\nSin embargo, los economistas también señalan que la IA no solo está eliminando empleos, sino también creando nuevas oportunidades. Profesiones como entrenadores de IA, ingenieros de prompts y analistas de datos son cada vez más buscadas en el mercado laboral global."
+        title: "Cómo Iniciar Sesión como Usuario",
+        content: "usuario = user y contraseña = user"
       },
       'zh': {
-        title: "AI技术日益智能：对劳动力市场的影响",
-        content: "人工智能（AI）继续快速发展，并开始显著重塑全球就业市场。专家预测，在未来10年内，几乎所有行业都将受到基于AI的自动化影响。\n\n然而，经济学家也注意到，AI不仅在消除就业岗位，还在创造新的机会。AI培训师、提示工程师和数据分析师等职业在全球就业市场上越来越受欢迎。"
+        title: "如何以普通用户身份登录",
+        content: "用户名 = user，密码 = user"
       }
     },
     image_url: "https://picsum.photos/seed/news2/800/450",
@@ -213,28 +212,28 @@ let newsData = [
   },
   {
     id: 3,
-    title: "Cuaca Ekstrem Melanda Beberapa Wilayah Indonesia",
-    content: "Badan Meteorologi, Klimatologi, dan Geofisika (BMKG) memperingatkan masyarakat tentang potensi cuaca ekstrem yang akan melanda beberapa wilayah Indonesia dalam beberapa hari ke depan.\n\nWilayah yang berpotensi terdampak meliputi Sumatera bagian barat, Jawa, Kalimantan, dan Sulawesi. Masyarakat diminta untuk tetap waspada dan mengikuti perkembangan informasi cuaca dari sumber resmi.",
+    title: "Ini adalah Website Demo Interaktif",
+    content: "Website demo ini dibuat untuk mengecek kompatibilitas di berbagai device seperti PC, mobile, dan iOS. Dengan konsep berita yang bisa login sebagai admin dan user. Lalu admin memiliki fitur khusus yang dapat membuat, merubah, dan menghapus artikel.",
     translations: {
       'en-us': {
-        title: "Extreme Weather Hits Several Regions of Indonesia",
-        content: "The Indonesian Meteorology, Climatology, and Geophysics Agency (BMKG) has warned the public about the potential for extreme weather to hit several regions of Indonesia in the coming days.\n\nAreas potentially affected include western Sumatra, Java, Kalimantan, and Sulawesi. The public is urged to remain vigilant and monitor weather updates from official sources."
+        title: "This Is an Interactive Demo Website",
+        content: "This demo website was created to check compatibility across various devices such as PC, mobile, and iOS. With a news portal concept, you can log in as either an admin or a user. Admins have special features to create, edit, and delete news articles."
       },
       'en-uk': {
-        title: "Extreme Weather Hits Several Regions of Indonesia",
-        content: "The Indonesian Meteorology, Climatology, and Geophysics Agency (BMKG) has warned the public about the potential for extreme weather to hit several regions of Indonesia in the coming days.\n\nAreas potentially affected include western Sumatra, Java, Kalimantan, and Sulawesi. The public is urged to remain vigilant and monitor weather updates from official sources."
+        title: "This Is an Interactive Demo Website",
+        content: "This demo website was created to check compatibility across various devices such as PC, mobile, and iOS. With a news portal concept, you can log in as either an admin or a user. Admins have special features to create, edit, and delete news articles."
       },
       'ja': {
-        title: "インドネシアの複数地域を極端な天候が直撃",
-        content: "インドネシア気象・気候・地球物理学庁（BMKG）は、今後数日間でインドネシアの複数の地域が極端な天候に見舞われる可能性について国民に警告を発しました。\n\n影響を受ける可能性のある地域には、スマトラ西部、ジャワ、カリマンタン、スラウェシが含まれます。公式情報源からの気象情報を監視し、警戒を怠らないよう市民に呼びかけています。"
+        title: "これはインタラクティブなデモウェブサイトです",
+        content: "このデモウェブサイトは、PC・モバイル・iOSなど様々なデバイスとの互換性を確認するために作られました。ニュースポータルのコンセプトで、管理者またはユーザーとしてログインできます。管理者は記事の作成・編集・削除ができる特別な機能を持っています。"
       },
       'es': {
-        title: "Clima Extremo Azota Varias Regiones de Indonesia",
-        content: "La Agencia de Meteorología, Climatología y Geofísica de Indonesia (BMKG) ha advertido al público sobre el potencial de clima extremo que podría afectar varias regiones de Indonesia en los próximos días.\n\nLas áreas potencialmente afectadas incluyen el oeste de Sumatra, Java, Kalimantan y Sulawesi. Se urge al público a mantenerse alerta y monitorear las actualizaciones meteorológicas de fuentes oficiales."
+        title: "Este Es un Sitio Web Demo Interactivo",
+        content: "Este sitio web demo fue creado para verificar la compatibilidad en varios dispositivos como PC, móvil e iOS. Con el concepto de portal de noticias, puedes iniciar sesión como administrador o como usuario. Los administradores tienen funciones especiales para crear, editar y eliminar artículos."
       },
       'zh': {
-        title: "极端天气袭击印度尼西亚多个地区",
-        content: "印度尼西亚气象、气候和地球物理局（BMKG）已就未来几天可能袭击印度尼西亚多个地区的极端天气向公众发出警告。\n\n可能受影响的地区包括苏门答腊西部、爪哇、加里曼丹和苏拉威西。公众被敦促保持警惕，并从官方来源监测天气更新。"
+        title: "这是一个交互式演示网站",
+        content: "此演示网站旨在检查在PC、手机和iOS等各种设备上的兼容性。以新闻门户为概念，您可以以管理员或用户身份登录。管理员拥有创建、编辑和删除新闻文章的特殊功能。"
       }
     },
     image_url: "https://picsum.photos/seed/news3/800/450",
